@@ -54,7 +54,7 @@ li {
 }
 
 .gray-box {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
     color: gray;
     position: absolute;
     left: 0 !important;
