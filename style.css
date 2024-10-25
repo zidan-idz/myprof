@@ -9,7 +9,7 @@ body {
 }
 
 .white-box {
-    background-color: rgba(255, 255, 255, 0.4) !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -17,12 +17,19 @@ body {
     text-align: center;
 }
 
+.white-clr {
+    color: white !important;
+}
+
+.black-clr {
+    color: black;
+}
+
 h1 {
     border: 1px;
     border-style: solid;
     border-color: gray;
     border-radius: 15px;
-    color: aliceblue;
     text-align: center;
     font-size: 2rem;
     margin-bottom: 30px;
@@ -30,7 +37,6 @@ h1 {
 
 p {
     font-size: 16px;
-    color: black;
     line-height: 1.6;
     text-align: justify !important;
     text-indent: 2em;
@@ -38,6 +44,7 @@ p {
 
 
 li {
+    color: white;
     text-align: left !important;
 }
 
@@ -54,9 +61,9 @@ li {
 }
 
 .gray-box {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
     color: gray;
-    position: absolute;
+    position: fixed;
     left: 0 !important;
     right: 0 !important;
     text-align: center !important;
